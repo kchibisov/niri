@@ -35,7 +35,8 @@ xcursor = "0.3.4"
 zbus = { version = "3.14.1", optional = true }
 
 [dependencies.smithay]
-git = "https://github.com/Smithay/smithay.git"
+git = "https://github.com/kchibisov/smithay.git"
+branch = "keyboard-layouts-are-fun"
 # path = "../smithay"
 default-features = false
 features = [
@@ -55,7 +56,8 @@ features = [
 ]
 
 [dependencies.smithay-drm-extras]
-git = "https://github.com/Smithay/smithay.git"
+git = "https://github.com/kchibisov/smithay.git"
+branch = "keyboard-layouts-are-fun"
 # path = "../smithay/smithay-drm-extras"
 
 [dev-dependencies]
