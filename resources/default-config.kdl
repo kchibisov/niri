@@ -215,6 +215,10 @@ binds {
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
 
+    // Actions to switch layouts.
+    //Mod+Space       { switch-layout "next"; }
+    //Mod+Shift+Space { switch-layout "prev"; }
+
     // Finer width adjustments.
     // This command can also:
     // * set width in pixels: "1000"
